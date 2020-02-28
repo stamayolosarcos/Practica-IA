@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 6692868252135722055}
   - component: {fileID: 6692868252135722052}
   - component: {fileID: 6692868252135722053}
+  - component: {fileID: 996189951105761924}
   - component: {fileID: 6692868252135722054}
+  - component: {fileID: -4489356079935736204}
+  - component: {fileID: -5975377420065385197}
   m_Layer: 0
   m_Name: Fish
   m_TagString: FISH
@@ -45,8 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f7cbbdf0d23565448d7ea26fd3b99ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 40
-  maxSpeed: 15
+  maxAcceleration: 60
+  maxSpeed: 20
   maxAngularAcceleration: 45
   maxAngularSpeed: 45
   position: {x: 0, y: 0, z: 0}
@@ -82,6 +85,19 @@ MonoBehaviour:
   avoidDistance: 10
   secondaryWhiskerAngle: 30
   secondaryWhiskerRatio: 0.7
+--- !u!114 &996189951105761924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6692868252135722048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7210f9cd0defd47a24374179e0ab7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
 --- !u!212 &6692868252135722054
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -133,3 +149,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4489356079935736204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6692868252135722048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cda43687cdea043ba027709aea381c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  showWhisker: 1
+  lookAheadLength: 10
+  avoidDistance: 10
+  secondaryWhiskerAngle: 30
+  secondaryWhiskerRatio: 0.7
+  rotationalPolicy: 1
+--- !u!114 &-5975377420065385197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6692868252135722048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 788c48558f44a0746ab10af5f8b65b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharkDetectableRadius: 20
+  sharkFleedRadius: 50
+  attractor: {fileID: 0}
+  shark: {fileID: 0}
