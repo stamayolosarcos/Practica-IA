@@ -4,11 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - RedPanda
-  - GrayPanda
-  - Sharpie
-  - FOOD
-  - Attractor
+  - FISH
+  - SHARK_FOOD
   layers:
   - Default
   - TransparentFX
