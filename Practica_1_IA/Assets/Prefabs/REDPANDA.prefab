@@ -112,9 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eafda3ca5fdf7e439bc1bcdca26d9dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foodDetectableRadius: 60
-  foodReachedRadius: 3
-  timeToEat: 1.5
+  SharpieDetectableRadius: 400
+  orbitRadius: 50
+  tooFarFromSharpie: 50
   orbitTarget: {fileID: 0}
 --- !u!114 &2474526198104771707
 MonoBehaviour:
