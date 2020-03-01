@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 7578823652640294449}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -54, y: 69, z: 0}
-  m_LocalScale: {x: 90, y: 90, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -168,17 +168,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b11fda04dfedf54ba52d6f5de34f477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wormDetectableRadius: 60
-  wormReachedRadius: 12
-  timeToEatWorm: 1.5
-  chickDetectionRadius: 100
-  chickFarEnoughRadius: 250
+  foodDetectableRadius: 60
+  foodReachedRadius: 12
+  timeToEat: 1.5
   attractor: {fileID: 0}
-  tooFarFromAttractor: 110
-  closeEnoughToAttractor: 25
-  angrySound: {fileID: 0}
-  eatingSound: {fileID: 0}
-  cluckingSound: {fileID: 0}
 --- !u!82 &7578823652640294414
 AudioSource:
   m_ObjectHideFlags: 0

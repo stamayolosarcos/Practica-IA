@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 711411933}
   m_Layer: 0
   m_Name: LION
-  m_TagString: Untagged
+  m_TagString: LION
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1007,7 +1007,7 @@ GameObject:
   - component: {fileID: 1199865701}
   m_Layer: 0
   m_Name: HYENA
-  m_TagString: Untagged
+  m_TagString: HYENA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1955,6 +1955,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578823652640294415, guid: f6ba4268eaa168346a585c9108a0de0a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578823652640294415, guid: f6ba4268eaa168346a585c9108a0de0a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578823652640294415, guid: f6ba4268eaa168346a585c9108a0de0a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7578823652640294449, guid: f6ba4268eaa168346a585c9108a0de0a,
         type: 3}
